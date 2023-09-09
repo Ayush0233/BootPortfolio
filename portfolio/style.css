@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    scroll-behavior: smooth;
+}
+/* --------------common--------------- */
+.heading{
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: #fd2222;
+    
+}
+/* ------------------------------ */
+#navbar{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.514);
+    position: fixed;
+    z-index: 99;
+    backdrop-filter: blur(10px);
+    /* box-shadow: 5px 0 10px black; */
+}
+.navbar-brand img{
+    width: 100px;
+    height: 50px;
+}
+#logo{
+    padding-left: 3%;
+}
+#navbarNav{
+    padding-right: 5% !important;
+}
+.nav-item{
+    padding-right: 30px;
+    font-size: 18px;
+}
+.nav-link{
+    color:black;
+    font-weight: bold;
+    transition: 0.09s;
+}
+.nav-link:hover{
+    color: #19d519;
+    transform: scale(1.1);
+}
+
+/* Intro-section */
+
+#intro{
+    padding: 10% 3% 5%;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+#myimg{
+    padding: 2% 3% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+#myimg img{
+    border-radius: 50%;
+    width: 420px;
+    height: 430px;
+    transition: 0.2s;
+    box-shadow: 0 0 5px black;
+
+}
+
+#myimg img:hover{
+    box-shadow: 0 0 13px black;
+    border: 10px solid #0b7e95ac;
+}
+
+#heroDescription{
+    padding: 5% 2% 0%  ;
+}
+#heroDescription h6{
+    color: rgb(57, 252, 35);
+    font-size: 25px;
+    font-weight: bold;
+    /* padding-bottom: 2px; */
+}
+#heroDescription h1{
+    font-weight: bold;
+    font-size: 55px;
+    font-family: arial black;
+    padding-bottom: 20px;
+}
+
+#domain{
+    color: grey;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight:800;
+    animation: typing-animation 2s steps(60)  infinite;
+    animation-duration: 5s;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+@keyframes typing-animation {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+#heroDescription h3 span{
+    color: #d87171;
+}
+#heroDescription p{
+    text-align: justify;
+    padding-bottom: 10px;
+    font-size: 20px;
+
+}
+
+#heroDescription button{
+    padding: 1% 2%;
+    width: 150px;
+}
+.btn{
+    border:none;
+    background:#761b02a0;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: 0.2s;
+    font-size: 20px;
+    font-weight: 550;
+    color: black;
+}
+
+.btn:hover{
+    background:#870b02;
+    color: white;
+    box-shadow:4px 4px 8px rgba(0, 0, 0, 0.719);
+}
+/* #cvbtn{
+    padding: 1% 2%;
+    width: 150px;
+} */
+/* --------------skills---------------- */
+.skills{
+    /* border: 0.1px solid black; */
+    border-radius: 10px;
+    padding: 8px 15px 5px;
+    display: flex;
+    gap: 10px;
+    background: #f4f4f4;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.274);
+    transition: 0.2s;
+    
+}
+.skills:hover{
+    box-shadow:4px 4px 8px rgba(0, 0, 0, 0.397);
+    transform: scale(1.1);
+
+}
+.skills i{
+    font-size: 60px;
+}
+.skills h2{
+    padding: 8px 0 0    ;
+    font-size: 28px;
+    font-weight: bold;
+}
+.skills h2 span{
+    font-size: 22px;
+    color: grey;
+}
+.bi-laptop{
+    color: #52f51c;
+}
+.bi-award-fill{
+    color: #06c5c5;
+}
+.bi-code-slash{
+    color: #fd2222;
+}
+#skills{
+    padding: 3% 0;
+}
+
+/* ---------------------Journey------------------ */
+#journey{
+    background-color: #edebe0;
+    padding: 30px 0;
+}
+#myjourney{
+    padding: 5px 0 70px 5px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #fd2222;
+    
+}
+#progressInfo{
+    display: flex;
+    gap: 10px;
+}
+#progress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.outercircle{
+    width: 50px;
+    height: 50px;
+    border: 1px dashed black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innercircle{
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.innercircle-bg-1{
+    background-color: #52f51c;
+}
+.innercircle-bg-2{
+    background-color: #fd2222;
+}
+.innercircle-bg-3{
+    background-color: #ff8400;
+}
+
+.line{
+    height: 130px;
+    width: 0;
+    border: 1px dashed black;
+    
+}
+#progressDescription{
+    display: flex;
+    flex-direction: column;
+    gap: 7%;    
+}
+#progressDescription h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+#progressDescription h5{
+    font-size: 17px;
+    margin: 5px;
+}
+#progressDescription h5 i{
+    color: grey;
+}
+#steps{
+    padding-top: 20%;
+}
+/* -----------------Explore Work----------------- */
+#exploreWork{
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 3% 4% 5%;
+}
+#exploreWork h2{
+    padding-top: 2%;
+
+}
+#exploreWork h2 a{
+    text-decoration: none;
+    font-weight: 550;
+}
+
+#slide{
+    background: #ff8400;
+    border-radius: 20px;
+   
+}
+.image{
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image img{
+    width: 500px;
+    height: 220px;
+    border-radius: 20px;
+
+}
+.image h4{
+    font-weight: bold;
+    font-family: bookman old style;
+    font-size: 30px;
+    margin: 20px;
+}
+.icon{
+    background-color: #830a0a;
+    border-radius: 50%;
+}
+
+/* -----------technologies--------------- */
+#technologies{
+    padding: 7% 2%;
+}
+#technologies h1{
+    /* margin-left: 5%; */
+    padding: 0% 0 0 7%;
+}
+.techcard{
+    width: 400px;
+    height: 40px;
+    margin: 5% 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 4% 1%;
+    border-radius: 10px;
+    border-left:10px solid #19b6d5;
+    box-shadow:4px 4px 8px rgba(0, 0, 0, 0.221);
+    transition: 0.3s;
+}
+.techcard:hover{
+    box-shadow:4px 4px 8px rgba(0, 0, 0, 0.397);
+    transform: scale(1.1);
+
+}
+.techcard img{
+    width: 70px;
+    height: 70px;
+}
+.techcard h1{
+    font-size: 30px;
+}
+
+/* ----------Contact--------------- */
+#reach{
+    background: #eaeaea;
+    padding: 5% 0;
+}
+#reachPage{
+    background: #eaeaea;
+
+    padding:10% 0 8%;
+}
+.reach{
+    padding: 0 7% 5%;
+}
+.contact-way{
+    text-align: center;
+}
+.sec{
+    transition: 0.2s;
+    height: auto;
+    padding: 0 ;
+}
+
+.contact-way .bi{
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.contact-way .bi-telegram{
+    color: #2b8be0;
+ }
+.contact-way .bi-linkedin:hover{
+    color: white;
+    background-color: #075fd1;
+ }
+.contact-way .bi-github{
+    color: black;
+ }
+.contact-way .bi-github:hover{
+    color: white;
+    background: black;
+ }
+.contact-way .bi-envelope{
+    color: #932504;
+ }
+.contact-way .bi-envelope:hover{
+    color: white;
+    background-color: #932504;
+ }
+
+.contact-way .bi-telegram:hover{
+    color: #fff;
+    background-color: #2b8be0;
+}
+
+/* ---------------appreciation--------------------- */
+#appreciation{
+    padding: 8% 0 5% 4%;
+}
+.appreciation{
+    width: 80%;
+    height: 25vh;
+    font-size: 20px;
+    box-shadow: 0 10px 30px grey;
+    padding: 3%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* border-left: 10px solid #19d5cc; */
+    border-right: 10px solid #19d5cc;
+    border-top:2px solid #19d5cc ;
+    border-bottom: 2px solid #19d5cc;
+
+
+}
+.appreciation-txt{
+    display: flex;
+    gap: 40px;
+}
+.will-smith{
+    height: 35vh;
+}
+
+/* -------------footer-------------- */
+#footer{
+    height: auto;
+    padding: 5% 0 0;
+    background: #83c0f5;
+}
+#footer h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+#footer h2{
+    font-weight: 550;
+    font-size: 40px;
+    padding: 2% 0 0 ;
+}
+#footer h2 span{
+    color: #b30a0a;
+}
+#footer h4{
+    font-weight: bold ;
+}
+#footer ul{
+    list-style: none;
+    padding-left: 0;
+
+} 
+#footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+#footer ul li a:hover{
+    text-decoration: underline;
+}
+#copyright{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    gap: 20%;
+}
+/* ----------------Projects-------------------- */
+#project-main{
+    padding: 9% 2% 0;
+}
+.cards{
+    padding:1%;
+    margin: 0% 0 3%;
+    box-shadow:4px 4px 8px rgba(0, 0, 0, 0.221);
+    transition: 0.3s;
+    border-radius: 10px;
+    border-left: 4px solid #19d5cc;
+    border-top: 2px solid #19d5cc;
+}
+.cards:hover{
+    box-shadow:4px 4px 8px rgba(0, 0, 0, 0.397);
+    transform: scale(1.07);
+
+}
+.cards h1{
+    text-align: center;
+    padding: 2% 0 1%;
+    font-size: 30px;
+    font-family: bookman old style ;
+    font-weight: bold;
+    
+}
+.cards h2{
+    text-align: center;
+    padding: 2% 0 0%;
+    font-size: 30px;
+    font-family: bookman old style ;
+    font-weight: bold;
+    
+}
+.school-Img{
+    box-shadow:4px 4px 8px rgba(0, 0, 0, 0.719);
+    border-radius: 10px;
+}
+.lor{
+    width: auto;
+    text-align: center;
+    padding: 1% 1% 2%;
+}
+.lor img{
+    height: 95%;
+}
+
+.edu-details h2{
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+.edu-details p{
+    font-size: 18px;
+    text-align: justify;
+}
+.course{
+    margin: 4% 0 0;
+}
+.college1-align{
+    display: flex;
+    justify-content: end;
+}
+
+/* animation css */
+/* .animate{
+    transition: 1s;
+}
+#heroDescription{
+    transform: translateX(-70%);
+    opacity: 0;
+}
+#heroDescription.show-animate{
+    transform: translateX(0);
+    opacity: 1;
+}
+#myimg{
+    transform: translateX(70%);
+    opacity: 0;
+}
+#myimg.show-animate{
+    transform: translateX(0);
+    opacity: 1;
+} */
+
+/* .skills{
+    transform: translateY(-70%);
+    opacity: 0;
+}
+.skills.show-animate{
+    transform: translateY(0%);
+    opacity: 1;
+} */

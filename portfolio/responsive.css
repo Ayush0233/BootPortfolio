@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1000px){
+    #myimg{
+        width: 340px;
+        height: 350px;
+        padding-bottom: 10%;
+    }
+    #intro{
+        padding-bottom: 3%;
+    }
+    #skills{
+        padding: 12% 0 5%;
+    }
+    .skills i{
+        font-size: 40px;
+    }
+    .skills h2{
+        font-size: 20px;
+    
+    }
+    .techcard{
+        height: 100px;
+    }
+    .appreciation{
+        height: auto;
+    }
+    .nav-link:hover{
+        color: #19d519;
+        transform: none;
+    }
+}
+
+@media only screen and (max-width:800px){
+    #myimg img{
+        width: 390px;
+        height: 400px;
+    }
+    #myimg{
+      padding: 20% 0 0 ;
+    }
+    #heroDescription{
+        padding-top: 10%;
+    }
+    #skills{
+        padding: 25% 0 0 ;
+    }
+    .skills{
+        padding: 0 2% 0 ;
+        margin-bottom: 10px;
+    }
+    .contact-way .bi{
+        font-size: 30px;
+    }
+    .appreciation{
+        border-radius: 20px;
+        border-left: 10px solid #19d5cc;
+    }
+    #copyright{
+        flex-direction: column;
+    }
+    #project-main{
+        padding: 15% 0 0;
+    }
+    #reachPage{
+        padding: 15% 0 8%;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    #heroDescription{
+        padding-top: 20%;
+    }
+    #skills{
+        padding: 25% 2% 0;
+        margin: 20px;
+    }
+    .appreciation{
+        height: auto;
+    }
+    #footer .link{
+        padding: 3% 0 0 5%;
+    }
+    #reachPage{
+        padding: 20% 0 8%;
+    }
+}
+@media only screen and (max-width:450px){
+    #heroDescription h1{
+        font-size: 45px;
+    }
+    #heroDescription h3{
+        font-size: 25px;
+    }
+    #myimg img{
+        width: 300px;
+        height: 290px;
+    }
+    #skills{
+        padding: 20% 0 5%;
+    }
+    #footer h1{
+        font-size: 40px;
+    }
+    #footer h2{
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    #copyright p{
+        font-size: 15px;
+    }
+    #project-main{
+        padding: 20% 0 0 !important;
+    }
+    .sub-heading{
+        font-size: 40px;
+        text-align: center;
+        padding: 0% 0 1% !important;
+    }
+}
+
+@media only screen and (max-width:410px){
+    #progressDescription{
+        gap: 6%;
+    }
+    .line{
+        height: 150px;
+    }
+    #project-main{
+        padding: 19% 0 0;
+    }
+}
+
+@media only screen and (max-width:370px){
+    #heroDescription h1{
+        font-size: 35px;
+    }
+    #heroDescription h3{
+        font-size: 20px;
+    }
+    #heroDescription p{
+        font-size: 15px;
+    }
+    #myimg{
+        width: 300px;
+        height: 290px;
+    }
+    #progressDescription{
+        gap: 6%;
+    }
+    .line{
+        height: 150px;
+    }
+   
+}
+@media only screen and (max-width:350px){
+    #heroDescription button{
+        width: 110px;
+        margin-left: 10px;
+    }
+}

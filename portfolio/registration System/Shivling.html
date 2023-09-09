@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShivLing</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: #2e2d2b;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .aura{
+            height:40px;
+            width: 0px;
+            border: 80px solid black;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            margin-top: 50%;
+            margin-left: 23%;
+           animation: light 3s linear infinite;
+           /* box-shadow: 0px -10px 30px #00ccff; */
+        }
+        .lower{
+            display: flex;
+        }
+        .circle{
+            width: 300px;
+            height: 0;
+            margin-top: -30px;
+            border: 30px solid black;
+            border-radius: 50%;
+            /* position: fixed; */
+
+        }
+        .back{
+            height: 0;
+            width: 400px;
+            position: fixed;
+            border:30px solid black ;
+            border-bottom-left-radius: 20px;
+            /* /* border-bottom-right-radius: 50%; */
+            border-top-right-radius: 10px;
+            margin-top: -5px;
+        }
+        .tilak{
+            height: 45px;
+            width: 35px;
+            /* border: 3px solid white; */
+            margin-left: -40px;
+            border-radius: 8px;
+            background-color: black;
+        }
+        .line1{
+            /* display: inline-block; */
+            height:3px ;
+            width:50px ;
+            border:3px solid white;
+            border-radius: 40%;
+            background-color: white;
+        }
+        .line3{
+            /* display: inline-block; */
+            height:3px ;
+            width:50px ;
+            border:3px solid white;
+            border-radius: 40%;
+            background-color: white;
+        }
+        .line2{
+            /* display: inline-block; */
+            height:8px ;
+            width:55px ;
+            background-color: #f4840c;
+            border-radius: 40%;
+
+            /* border-bottom:3px solid white; */
+        }
+        .line{
+            margin: 10px;
+        }
+
+        @keyframes light{
+            0%{
+                box-shadow: -15px 0px 20px #b8dd34,15px 0px 20px #b8dd34;
+            }
+            25%{
+                box-shadow: -15px -5px 20px #ff9900,15px -5px 20px #ff9d00;
+            }
+            50%{
+                box-shadow: -20px -20px 20px #eb5e06,20px -20px 20px #eb5e06;
+            }
+            75%{
+                box-shadow: -15px -5px 20px #ff9900,15px -5px 20px #ff9900;
+            }
+            100%{
+                box-shadow: -15px 0px 20px #b8dd34,15px 0px 20px #b8dd34;
+            }
+        }
+
+        .txt{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 4%;
+            font-size: 50px;
+            
+        }
+        .txt h1{
+            color: white;
+            text-shadow: 0 0 10px wheat;
+            margin-left: 4%;
+            
+        }
+        h3{
+            font-size: 30px;
+            text-align: center;
+            color: white;
+        }
+        a{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div>
+            <div class="aura">
+                <div class="tilak">
+                    <div class="line1 line"></div>
+                    <div class="line2 line"></div>
+                    <div class="line3 line"></div>
+                </div>
+            </div>
+            <div class="lower">
+                <div class="circle"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+    </div>
+    <div class="txt">
+        <h1>हर हर महादेव</h1>
+        
+        
+    </div><br><br><br>
+    <h3>Created by <a href="https://www.linkedin.com/in/ayush-wange-621721267/" target="_blank">Ayush</a></h3>
+</body>
+
+</html>
